@@ -50,6 +50,12 @@ ul {
   margin-left: 2rem;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .intro { display: flex;
   align-items: center;
   justify-content: space-between;
@@ -81,15 +87,39 @@ label {
   margin-right: 10px;
 }
 
-#pre-footer {
-  background-color: lightslategray;
+footer {
+  background-color: #17325F;
   color: #EDF4FF;
   vertical-align: bottom;
-  padding-top: 0.7rem;
-  padding-bottom: 0.3rem;
+}
+footer div{
+  display: inline-block;  
+  min-height: 75px;
+  text-align: left;
+  width: 20%;
+  padding-left: 15px;
 }
 
+input[type=send] {
+  background-color: black;
+  color: white;
+}
+/*Floating Back-To-Home Button*/
+    #myBtn {
+        position: fixed;
+        bottom: 10px;
+        float: right;
+        right: 18.5%;
+        left: 77.25%;
+        max-width: 100px;
+        width: 100%;
+        font-size: 12px;
+        border-color: rgba(85, 85, 85, 0.2);
+        background-color: rgb(100,100,100);
+        padding: .5px;
+        border-radius: 4px;
 
+    }
 
 
 

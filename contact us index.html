@@ -14,9 +14,10 @@
 	<!-- Contact Us Section -->
 <section class="contact" id="contact">
      
-     <div class="container-fluid bg-dark col-12 col-md-12 col-xl-12 p-md-5">
-     	<h3 class="text-center mt-3 mb-4 font-weight-bold text-light">Contact Us</h3>
-       <form class="bg-dark mb-5 col-12 col-md-8 col-xl-4 p-3 mx-auto">
+     <div class="container-fluid bg-dark col-12 col-md-12 col-xl-12 p-md-5 ">
+                            
+                             <h3 class="text-light text-center">Contact Us</h3>
+                            <form class="bg-primary mb-5 col-12 col-md-8 col-xl-4 p-3 mx-auto">
                               <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
@@ -40,21 +41,51 @@
                               </div>
 
                         <!-- Button trigger modal -->
-                     <button type="button" class="btn btn-primary">send</button>
-                   </div>
+                        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">
+                                  Send 
+                        </button>
+
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Thank you for contacting us!</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        Message Successfully Sent
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
                  </form>
                </div>
              </section>
 
-            <!-- Pre Footer -->
-             <section id="pre-footer">
-            <div>
-               <p>Online Portfolio - Interior Design | Tuitt Coding Bootcamp @ 2023</p>
-               <p>Are you a budding developer?</p>
-               <p>Icon</p>
-            </div>
+            <!-- Footer -->
+            <footer>
+            <!-- Creates an inline element -->
+            <span>Terms of Service</span>
+            <span>|</span>
+            <span>Privacy Policy</span>
+            <span>|</span>
+            <span>&copy;All Rights Reserved</span>
+        </footer>
 
-            <div>Back to top</div>
+
+             <section id="footer">
+            <footer>
+               <span>Online Portfolio | Zuitt Coding Bootcamp @ 2023</span>               
+            </footer>
+
+            <button id="myBtn"><a href="index.html" style="color: white">Back to Home</a></button>
+
+            
 
           </section>
 </body>
