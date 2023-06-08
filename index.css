@@ -1,0 +1,95 @@
+/* CSS Variables */
+
+
+/* Smooth scroll effect */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: smokewhite;
+}
+
+ body {
+  font-family: "Roboto", sans-serf;
+  background-color: floralwhite;
+
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: pink ;
+} 
+
+nav {
+  background: floralwhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.intro { display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.9rem;
+  max-width: 1100px;
+  margin: 2rem auto -6rem;
+}
+
+
+label {
+    color: black;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+    }
+.help-block.with-errors {
+    color: black;
+    margin-top: 5px;
+
+}
+
+.card{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#pre-footer {
+  background-color: lightslategray;
+  color: #EDF4FF;
+  vertical-align: bottom;
+  padding-top: 0.7rem;
+  padding-bottom: 0.3rem;
+}
+
+
+
+
+
